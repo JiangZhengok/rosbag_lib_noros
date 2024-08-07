@@ -1,0 +1,1 @@
+/home/faw/SDK/aos/arm64/common/bin/clang++  -O3 -DNDEBUG  -rdynamic CMakeFiles/test.dir/src/test.cpp.o  -o test  -Wl,-rpath,/codepath/faw_mlc_rosbag/install/aarch64/lib /codepath/faw_mlc_rosbag/install/aarch64/lib/libmy_rosbag_storage.so 

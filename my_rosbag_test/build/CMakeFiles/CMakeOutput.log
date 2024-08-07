@@ -1,0 +1,278 @@
+The system is: Linux - 5.15.0-116-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/faw/SDK/aos/arm64/common/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/faw/SDK/aos/arm64/common/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0a17/fast && /usr/bin/make -f CMakeFiles/cmTC_d0a17.dir/build.make CMakeFiles/cmTC_d0a17.dir/build
+make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0a17.dir/testCCompiler.c.o
+/home/faw/SDK/aos/arm64/common/bin/clang    -o CMakeFiles/cmTC_d0a17.dir/testCCompiler.c.o   -c /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d0a17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0a17.dir/link.txt --verbose=1
+/home/faw/SDK/aos/arm64/common/bin/clang      -rdynamic CMakeFiles/cmTC_d0a17.dir/testCCompiler.c.o  -o cmTC_d0a17 
+make[1]: Leaving directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed9f8/fast && /usr/bin/make -f CMakeFiles/cmTC_ed9f8.dir/build.make CMakeFiles/cmTC_ed9f8.dir/build
+make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o
+/home/faw/SDK/aos/arm64/common/bin/clang   -v -o CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/faw/SDK/aos/arm64/common/bin
+ (in-process)
+ "/home/faw/SDK/aos/arm64/common/bin/clang-12" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mllvm -pass-remarks= -mllvm -pass-remarks-missed= -mllvm -pass-remarks-analysis= -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -float-load-perfect=0 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1 -isysroot /home/faw/SDK/aos/arm64/common/bin/../sysroot -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include -internal-isystem /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include -fdebug-compilation-dir /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target aarch64-unknown-linux-gnu
+ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include"
+ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include
+ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include
+End of search list.
+Linking C executable cmTC_ed9f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9f8.dir/link.txt --verbose=1
+/home/faw/SDK/aos/arm64/common/bin/clang     -v -rdynamic CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o  -o cmTC_ed9f8 
+iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/faw/SDK/aos/arm64/common/bin
+ "/home/faw/SDK/aos/arm64/common/bin/ld.lld" --sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot -export-dynamic -EL -z relro --hash-style=gnu --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_ed9f8 /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64 -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a -lc /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o
+make[1]: Leaving directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+    add: [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include] ==> [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+  collapse include dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/include]
+  implicit include dirs: [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include;/home/faw/SDK/aos/arm64/common/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ed9f8/fast && /usr/bin/make -f CMakeFiles/cmTC_ed9f8.dir/build.make CMakeFiles/cmTC_ed9f8.dir/build]
+  ignore line: [make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/faw/SDK/aos/arm64/common/bin/clang   -v -o CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/faw/SDK/aos/arm64/common/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/faw/SDK/aos/arm64/common/bin/clang-12" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mllvm -pass-remarks= -mllvm -pass-remarks-missed= -mllvm -pass-remarks-analysis= -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -float-load-perfect=0 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1 -isysroot /home/faw/SDK/aos/arm64/common/bin/../sysroot -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include -internal-isystem /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include -fdebug-compilation-dir /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target aarch64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+  ignore line: [ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_ed9f8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9f8.dir/link.txt --verbose=1]
+  ignore line: [/home/faw/SDK/aos/arm64/common/bin/clang     -v -rdynamic CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o  -o cmTC_ed9f8 ]
+  ignore line: [iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/faw/SDK/aos/arm64/common/bin]
+  link line: [ "/home/faw/SDK/aos/arm64/common/bin/ld.lld" --sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot -export-dynamic -EL -z relro --hash-style=gnu --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_ed9f8 /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64 -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a -lc /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/faw/SDK/aos/arm64/common/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ed9f8] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o] ==> ignore
+    arg [-L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64] ==> dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64]
+    arg [-L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib] ==> dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_ed9f8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a] ==> lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+    arg [-lc] ==> lib [c]
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a] ==> lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+  remove lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+  collapse library dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib64]
+  collapse library dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib64;/home/faw/SDK/aos/arm64/common/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d01f5/fast && /usr/bin/make -f CMakeFiles/cmTC_d01f5.dir/build.make CMakeFiles/cmTC_d01f5.dir/build
+make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d01f5.dir/testCXXCompiler.cxx.o
+/home/faw/SDK/aos/arm64/common/bin/clang++     -o CMakeFiles/cmTC_d01f5.dir/testCXXCompiler.cxx.o -c /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d01f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01f5.dir/link.txt --verbose=1
+/home/faw/SDK/aos/arm64/common/bin/clang++       -rdynamic CMakeFiles/cmTC_d01f5.dir/testCXXCompiler.cxx.o  -o cmTC_d01f5 
+make[1]: Leaving directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e406b/fast && /usr/bin/make -f CMakeFiles/cmTC_e406b.dir/build.make CMakeFiles/cmTC_e406b.dir/build
+make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o
+/home/faw/SDK/aos/arm64/common/bin/clang++    -v -o CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/faw/SDK/aos/arm64/common/bin
+ (in-process)
+ "/home/faw/SDK/aos/arm64/common/bin/clang-12" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mllvm -pass-remarks= -mllvm -pass-remarks-missed= -mllvm -pass-remarks-analysis= -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -float-load-perfect=0 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1 -isysroot /home/faw/SDK/aos/arm64/common/bin/../sysroot -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1 -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include -internal-isystem /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -mllvm -delete-infinite-loops=true -faddrsig -o CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target aarch64-unknown-linux-gnu
+ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include"
+ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1
+ /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include
+ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_e406b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e406b.dir/link.txt --verbose=1
+/home/faw/SDK/aos/arm64/common/bin/clang++      -v -rdynamic CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e406b 
+iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/faw/SDK/aos/arm64/common/bin
+ "/home/faw/SDK/aos/arm64/common/bin/ld.lld" --sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot -export-dynamic -EL -z relro --hash-style=gnu --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e406b /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64 -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lunwind -lm /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a -lc /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o
+make[1]: Leaving directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1]
+    add: [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+    add: [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/include/c++/v1]
+  collapse include dir [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include] ==> [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+  collapse include dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/include]
+  implicit include dirs: [/home/faw/SDK/aos/arm64/common/sysroot/usr/include/c++/v1;/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include;/home/faw/SDK/aos/arm64/common/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e406b/fast && /usr/bin/make -f CMakeFiles/cmTC_e406b.dir/build.make CMakeFiles/cmTC_e406b.dir/build]
+  ignore line: [make[1]: Entering directory '/codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/faw/SDK/aos/arm64/common/bin/clang++    -v -o CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/faw/SDK/aos/arm64/common/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/faw/SDK/aos/arm64/common/bin/clang-12" -cc1 -triple aarch64-unknown-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mllvm -pass-remarks= -mllvm -pass-remarks-missed= -mllvm -pass-remarks-analysis= -mframe-pointer=non-leaf -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -float-load-perfect=0 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1 -isysroot /home/faw/SDK/aos/arm64/common/bin/../sysroot -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1 -internal-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include -internal-isystem /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/include -internal-externc-isystem /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /codepath/faw_mlc_rosbag/my_rosbag_test/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -mllvm -delete-infinite-loops=true -faddrsig -o CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target aarch64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/faw/SDK/aos/arm64/common/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include/c++/v1]
+  ignore line: [ /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/include]
+  ignore line: [ /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_e406b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e406b.dir/link.txt --verbose=1]
+  ignore line: [/home/faw/SDK/aos/arm64/common/bin/clang++      -v -rdynamic CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e406b ]
+  ignore line: [iAOS BiSheng CPU 3.0.0.B017 clang version 12.0.1 (3ea00368d9e9)]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/faw/SDK/aos/arm64/common/bin]
+  link line: [ "/home/faw/SDK/aos/arm64/common/bin/ld.lld" --sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot -export-dynamic -EL -z relro --hash-style=gnu --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e406b /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64 -L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lunwind -lm /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a -lc /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a /home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o /home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o]
+    arg [/home/faw/SDK/aos/arm64/common/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/faw/SDK/aos/arm64/common/bin/../sysroot] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e406b] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtbegin-aarch64.o] ==> ignore
+    arg [-L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64] ==> dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64]
+    arg [-L/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib] ==> dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_e406b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a] ==> lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+    arg [-lc] ==> lib [c]
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a] ==> lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+    arg [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/clang_rt.crtend-aarch64.o] ==> ignore
+    arg [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+  remove lib [/home/faw/SDK/aos/arm64/common/lib64/clang/12.0.1/lib/linux/libclang_rt.builtins-aarch64.a]
+  collapse library dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib/../lib64] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib64]
+  collapse library dir [/home/faw/SDK/aos/arm64/common/bin/../sysroot/usr/lib] ==> [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib]
+  implicit libs: [c++;unwind;m;c]
+  implicit dirs: [/home/faw/SDK/aos/arm64/common/sysroot/usr/lib64;/home/faw/SDK/aos/arm64/common/sysroot/usr/lib]
+  implicit fwks: []
+
+
